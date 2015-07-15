@@ -1,1 +1,0 @@
-﻿INSERT INTO Jobs VALUES ('AC_ASST','Accounting assistant', 7000, 10000)
