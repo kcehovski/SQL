@@ -1,0 +1,1 @@
+﻿UPDATE Jobs SET Max_Salary += 2000

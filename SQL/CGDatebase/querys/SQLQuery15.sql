@@ -1,0 +1,1 @@
+﻿SELECT AVG(Annual_Salary) AS avg FROM Employees

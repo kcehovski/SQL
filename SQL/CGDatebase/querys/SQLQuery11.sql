@@ -1,0 +1,1 @@
+﻿SELECT Phone_Number, Job_ID FROM Employees WHERE Annual_Salary > 20000

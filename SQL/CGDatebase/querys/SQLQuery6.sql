@@ -1,0 +1,1 @@
+﻿SELECT First_Name, Last_Name, Employee_No, Hire_Date, Job_ID FROM Employees WHERE Job_ID= 'SA_REP' and Hire_Date >= '1997-12-15' ORDER BY Last_Name ASC
