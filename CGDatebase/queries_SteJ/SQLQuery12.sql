@@ -1,1 +1,0 @@
-﻿SELECT First_Name, Last_Name, Annual_Salary, Job_Title FROM Employees, Jobs WHERE Hire_Date> '1999' and Annual_Salary>= 7000 and Jobs.Job_ID= Employees.Job_ID ORDER BY First_Name DESC

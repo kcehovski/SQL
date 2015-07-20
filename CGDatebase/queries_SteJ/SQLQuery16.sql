@@ -1,1 +1,0 @@
-﻿SELECT Job_ID, COUNT(Job_ID) AS Number_of_employees FROM Employees Group BY Job_ID
