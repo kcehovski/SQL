@@ -1,0 +1,1 @@
+﻿CREATE INDEX LOC_POSTAL_CODE ON Locations (Postal_Code)

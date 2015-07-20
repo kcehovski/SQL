@@ -1,0 +1,6 @@
+﻿CREATE VIEW Managers_Details AS
+(
+	SELECT * FROM Employees 
+	WHERE Job_ID LIKE '%MGR'
+)
+WITH CHECK OPTION

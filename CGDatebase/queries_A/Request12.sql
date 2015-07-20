@@ -1,0 +1,1 @@
+﻿INSERT INTO Jobs VALUES ('IT_ANAL', 'System Analyst', 10000, 15000)

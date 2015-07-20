@@ -1,0 +1,4 @@
+﻿CREATE USER Bla WITHOUT LOGIN
+GRANT SELECT ON Managers_Details TO Bla
+/*EXECUTE AS USER= 'Bla'
+DROP VIEW Managers_Details*/

@@ -1,0 +1,1 @@
+﻿SELECT * FROM Jobs WHERE Max_Salary> 15000 ORDER BY Max_Salary DESC
