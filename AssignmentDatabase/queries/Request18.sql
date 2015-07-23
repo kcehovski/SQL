@@ -1,0 +1,1 @@
+﻿SELECT CAST(ROUND(AVG(Annual_Salary), 2) AS decimal (8,2)) AS Average_Salary FROM Employees
