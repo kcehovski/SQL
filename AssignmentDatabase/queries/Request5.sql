@@ -1,0 +1,1 @@
+﻿SELECT * FROM Employees WHERE Employee_No != 182

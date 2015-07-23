@@ -1,0 +1,1 @@
+﻿SELECT * FROM Employees WHERE Annual_Salary = 23000.00 OR Annual_Salary = 14990.00
