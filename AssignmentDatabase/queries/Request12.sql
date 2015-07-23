@@ -1,0 +1,1 @@
+﻿SELECT * FROM Countries ORDER BY Country_ID ASC

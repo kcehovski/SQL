@@ -1,0 +1,1 @@
+﻿SELECT Job_Title FROM Jobs ORDER BY Max_Salary ASC
