@@ -1,5 +1,6 @@
-﻿SELECT TOP 1 Departments.Department_No, Departments.Department_Name,
+﻿SELECT TOP 1 WITH TIES d.Department_No, d.Department_Name,
 COUNT(*) AS Number_Employee
-FROM Departments INNER JOIN Employees ON Departments.Department_No = Employees.Department_No
-GROUP BY Departments.Department_Name, Departments.Department_No
+FROM Departments d 
+JOIN Employees e ON d.Department_No = e.Department_No
+GROUP BY d.Department_Name, d.Department_No
 ORDER BY Number_Employee DESC

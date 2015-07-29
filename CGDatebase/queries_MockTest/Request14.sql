@@ -1,0 +1,1 @@
+﻿SELECT * FROM Jobs ORDER BY Job_ID DESC

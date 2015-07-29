@@ -1,0 +1,1 @@
+﻿SELECT * FROM Job_History ORDER BY Employee_No DESC

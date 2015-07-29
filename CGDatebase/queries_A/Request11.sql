@@ -1,10 +1,10 @@
-﻿SELECT Departments.Department_No, Departments.Department_Name
-FROM Departments 
-WHERE Departments.Department_No not in(
-	SELECT DISTINCT Departments.Department_No FROM Employees 
-	JOIN Jobs ON Employees.Job_ID = Jobs.Job_ID
-	JOIN Departments ON Employees.Department_No = Departments.Department_No
-	AND Jobs.Job_Title= 'Programmer')
+﻿SELECT d.Department_No, d.Department_Name
+FROM Departments d
+WHERE d.Department_No not in(
+	SELECT DISTINCT d.Department_No FROM Employees e
+	JOIN Jobs j ON e.Job_ID = j.Job_ID
+	JOIN Departments ON e.Department_No = d.Department_No
+	AND j.Job_Title= 'Programmer')
 
 
 
